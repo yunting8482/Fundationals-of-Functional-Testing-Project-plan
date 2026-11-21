@@ -3,7 +3,7 @@ Group 9
 
 This is the assignment for Fundational of Functional Testing.  
 The objective is to design, implement, execute and evaluate automated tests based on the approved Test Plan.  
-[Selected test](#id-test-case) cases will be automated using Robot Framework and Playwright.   
+Selected [test cases] (#id-test-case) will be automated using Robot Framework and Playwright.   
 
 ### ID Test Case
 TC-01 Login with valid credentials
