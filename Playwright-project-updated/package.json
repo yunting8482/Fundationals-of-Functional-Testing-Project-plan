@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-playwright-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly Playwright + TypeScript test project for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:search": "playwright test tests/search.spec.ts",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
