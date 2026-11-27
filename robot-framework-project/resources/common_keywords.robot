@@ -11,12 +11,11 @@ Open Login Page
     New Browser  chromium       headless=False
     New Page        ${BASE_URL}
 
-Login With Credentials
-
-# Expects two arguments
-    [Arguments]     ${USERNAME}      ${PASSWORD}
-
-#Check that id's are correct !!
+Enter Username
     Fill Text       id=user-name       ${USERNAME}
+
+Enter Password
     Fill Text       id=password        ${PASSWORD}
-    Click       id=login-button
+
+Click Login Button
+    Click           id=login-button
